@@ -36,3 +36,8 @@
     from{right: -80px;}
     to {right: 100%;}
 }
+
+@keyframes pipe-animation{
+    from{right: -80px;}
+    to {right: 100%;}
+}
