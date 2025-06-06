@@ -34,11 +34,16 @@
 }
 
 @keyframes pipe-animation{
-    from{right: -80px;}
+    from { right: -80px;}
     to {right: 100%;}
 }
 
 @keyframes clouds-animation{
-    from{right: -550px;}
+    from {right: -550px;}
     to {right: 100%;}
+}
+
+@keyframes jump{
+    0% { bottom: 0;}
+    50% {bottom: 180px;}
 }
