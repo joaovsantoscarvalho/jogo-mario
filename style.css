@@ -30,6 +30,7 @@
 .nuvem {
     position: absolute;
     width: 550px;
+    animation: clouds-animation 20s infinite linear;
 }
 
 @keyframes pipe-animation{
@@ -37,7 +38,7 @@
     to {right: 100%;}
 }
 
-@keyframes pipe-animation{
-    from{right: -80px;}
+@keyframes clouds-animation{
+    from{right: -550px;}
     to {right: 100%;}
 }
