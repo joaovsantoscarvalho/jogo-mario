@@ -16,7 +16,7 @@ const loop =setInterval(()=>{
 
     if(pipePosition <= 120 && pipePosition > 0 && marioPosition <80) {
         pipe.computedStyleMap.animation = "none";
-        
+        pipe.computedStyleMap.left = ``
     }
 })
 document.addEventListener("keydown", jump);
