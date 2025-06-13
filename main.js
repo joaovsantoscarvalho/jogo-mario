@@ -21,8 +21,8 @@ const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
         mario.Style.animation = "none";
         mario.Style.left = `${pipePosition}px`;
 
-        mario.src=".img/game-over.png";
-        mario.style.width = "75px"
+        mario.src="./img/game-over.png";
+        mario.style.width = "75px";
         mario.style.marginleft = "50px";
 
         clearInterval(loop);
