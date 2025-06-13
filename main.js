@@ -10,7 +10,7 @@ const jump = () => {
     ,500);
 }
 
-const loop = setInterval(()=>{
+const loop = setInterval(() => {
 const pipePosition = pipe.offsetleft;
 const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "");
 
